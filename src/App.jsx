@@ -39,7 +39,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
     <div>
-      <h1 className='text-white text-center my-3 font-extrabold mt-12'>## Create Strong & Unique Passwords Instantly ##</h1>
+      <h1 className='text-white text-3xl text-center my-3 font-extrabold mt-12'>## Create Strong & Unique Passwords Instantly ##</h1>
     <div className="w-full max-w-screen-sm max-h-full mx-auto shadow-md rounded-lg px-4 py-12 mt-52 my-8 bg-gray-800 text-orange-500">
       <h1 className='text-white text-center my-3 font-extrabold'>Password generator</h1>
     <div className="flex shadow rounded-lg overflow-hidden mb-4">
@@ -89,7 +89,7 @@ function App() {
                   setCharAllowed((prev) => !prev )
               }}
           />
-          <label htmlFor="characterInput">Characters</label>
+          <label htmlFor="characterInput">symbols</label>
       </div>
     </div>
 </div>
